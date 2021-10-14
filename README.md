@@ -19,3 +19,6 @@ mongodb+srv://kuldashev:<password>@cluster0.o7vq6.mongodb.net/myFirstDatabase?re
   
   
   mongodb+srv://kuldashev:mO5JzQd3x8annG8z@cluster0.r6vwn.mongodb.net/maktab?retryWrites=true&w=majority
+
+  
+  123zxcqaws!78553vef
