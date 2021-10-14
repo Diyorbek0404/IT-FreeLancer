@@ -14,3 +14,8 @@ https://github.com/azure/iisnode/releases/download/v0.2.21/iisnode-full-v0.2.21-
 
 
 mongodb+srv://kuldashev:<password>@cluster0.o7vq6.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+  
+  
+  
+  
+  mongodb+srv://kuldashev:mO5JzQd3x8annG8z@cluster0.r6vwn.mongodb.net/maktab?retryWrites=true&w=majority
