@@ -12,3 +12,5 @@ https://www.iis.net/downloads/microsoft/url-rewrite
 
 https://github.com/azure/iisnode/releases/download/v0.2.21/iisnode-full-v0.2.21-x64.msi
 
+
+mongodb+srv://kuldashev:<password>@cluster0.o7vq6.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
