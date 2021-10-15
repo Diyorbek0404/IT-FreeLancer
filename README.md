@@ -22,3 +22,6 @@ mongodb+srv://kuldashev:<password>@cluster0.o7vq6.mongodb.net/myFirstDatabase?re
 
   
   123zxcqaws!78553vef
+  
+  
+  0ta0na0'g'li$#)
