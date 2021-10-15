@@ -25,3 +25,34 @@ mongodb+srv://kuldashev:<password>@cluster0.o7vq6.mongodb.net/myFirstDatabase?re
   
   
   0ta0na0'g'li$#)
+  
+  
+  <configuration>
+<system.webServer>
+<handlers>
+  <add name="iisnode" path="WebAPI.js" verb="*" modules="iisnode" />
+</handlers>
+
+<rewrite>
+  <rules>
+    <rule name="nodejs">
+      <match url="(.*)" />
+      <conditions>
+        <add input="{REQUEST_FILENAME}" matchType="IsFile" negate="true" />
+      </conditions>
+      <action type="Rewrite" url="/WebAPI.js" />
+    </rule>
+  </rules>
+</rewrite> 
+
+<security>
+  <requestFiltering>
+    <hiddenSegments>
+      <add segment="node_modules" />
+      <add segment="iisnode" />
+    </hiddenSegments>
+  </requestFiltering>
+</security>
+</system.webServer>
+ </configuration>
+
